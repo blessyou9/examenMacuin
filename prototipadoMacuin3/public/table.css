@@ -1,0 +1,42 @@
+.table {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-collapse: separate;
+    border: 1px solid black;
+    margin: auto;
+}
+th {
+    font-size: 1.2em;
+    text-align: center;
+    background: linear-gradient(to bottom, #0074D9, #2980B9);
+    color: white; /* Cambiar el color del texto a blanco para que sea legible */
+    padding: 10px; /* Añadir un espacio adicional alrededor del contenido */
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Heredar la fuente de la tabla */
+    font-size: 12px;
+    /* Heredar el tamaño de la tabla */
+    color: #000000;
+    /* Cambiar por el color deseado */
+    text-align: center;
+    width:1%;
+    background: linear-gradient(to bottom right, #2f80ed, #56ccf2);
+}
+
+h3 {
+    color: #000000;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+p {
+    font-size: 1.2em;
+    color:black;
+}
+
+.material-icons {
+    color: #000000;
+}

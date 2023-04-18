@@ -1,0 +1,81 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: blue; /* Cambiamos el color de fondo a azul */
+    padding: 20px; /* Agregamos espacio entre los nav-items */
+    margin-left: 0px;
+    font-size: 24px;
+}
+
+.nav-item {
+    margin-right: 10px; /* Agregamos espacio entre los nav-items */
+}
+
+.navbar-nav {
+    margin-right: 20px;
+    }
+
+.nav-link {
+    text-shadow: 1px 1px 1px #000; / Agregamos sombreado para mejorar el estilo /
+    padding: 5px 10px; / Agregamos espacio alrededor del texto del enlace /
+    border-radius: 5px; / Agregamos esquinas redondeadas para mejorar el estilo /
+    background-color: #007bff; / Cambiamos el color de fondo del enlace a azul /
+    color: #fff !important; / Cambiamos el color del texto a blanco */
+    margin-right: 50px;
+}
+
+.nav-link:hover {
+    background-color: #0056b3; /* Cambiamos el color de fondo del enlace al pasar el mouse por encima */
+    }
+
+.navbar-brand {
+    color: white; 
+    font-weight: bold; 
+    margin-left: 20px;
+    font-size: 44px;
+    margin-right: 50px;
+}
+
+#website-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+h1, h2 {  
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+h3 {  
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 2rem 10%;
+}
+
+.card-text {
+    color: #333; /* Cambiamos el color del texto a oscuro */
+    font-size: 16px;
+    font-weight: normal; /* Cambiamos el peso de la fuente a normal */
+    font-family: Arial, sans-serif;
+    text-align: justify; /* Justificamos el texto */
+    margin: 1rem 0; 
+}
+  
